@@ -49,7 +49,7 @@ def sortir_belanjaan():
     daftar_belanjaan.sort()
     print("daftar belanjaan telah di urutkan")
 
-#Dimastian Aji Wibowo (2311104058)
+# Dimastian Aji Wibowo (2311104058)
 # Fungsi untuk menghitung jumlah total item dalam daftar belanjaan
 def hitung_jumlah_item():
     jumlah_item = len(daftar_belanjaan)
