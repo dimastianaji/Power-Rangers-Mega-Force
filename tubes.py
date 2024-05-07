@@ -1,3 +1,12 @@
+# Fungsi untuk menghapus item dari daftar belanjaan
+# Alya Rabani (2311104076)
+def hapus_item(item):
+    if item in daftar_belanjaan:
+        daftar_belanjaan.remove(item)
+        print(f"{item} telah dihapus dari daftar belanjaan.")
+    else:
+        print(f"{item} tidak ada dalam daftar belanjaan.")
+
 # Fungsi untuk menghapus semua item dari daftar belanjaan
 # Zhafir Zaidan Avail (2311104059)
 def hapus_semua_item():
