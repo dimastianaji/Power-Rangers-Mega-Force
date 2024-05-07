@@ -1,3 +1,11 @@
+# Fungsi untuk mencari item dalam daftar belanjaan
+# Aulia Jasifa BR Ginting (2311104060)
+def cari_item(item):
+    if item in daftar_belanjaan:
+        print(f"{item} ada dalam daftar belanjaan.")
+    else:
+        print(f"{item} tidak ada dalam daftar belanjaan.")
+
 # Fungsi untuk menghapus item dari daftar belanjaan
 # Alya Rabani (2311104076)
 def hapus_item(item):
