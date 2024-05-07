@@ -1,3 +1,15 @@
+# Inisialisasi daftar belanjaan
+daftar_belanjaan = []
+
+# Fungsi untuk menambahkan item ke daftar belanjaan
+# Putra Strata Tandika Setyawan (2311104050)
+def tambah_item(items):
+    new_items = items.split(",")  # Pisahkan item yang dimasukkan dengan koma
+    for item in new_items:
+        item = item.strip()  # Hilangkan spasi di awal dan akhir item
+        daftar_belanjaan.append(item)
+        print(f"{item} telah ditambahkan ke daftar belanjaan.")
+
 # Fungsi untuk mencari item dalam daftar belanjaan
 # Aulia Jasifa BR Ginting (2311104060)
 def cari_item(item):
