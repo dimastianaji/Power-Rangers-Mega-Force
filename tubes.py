@@ -1,3 +1,25 @@
+# Fungsi untuk menghapus semua item dari daftar belanjaan
+# Zhafir Zaidan Avail (2311104059)
+def hapus_semua_item():
+    daftar_belanjaan.clear()
+    print("Semua item telah dihapus dari daftar belanjaan.")
+
+# Fungsi untuk menampilkan daftar belanjaan
+# Zhafir Zaidan Avail (2311104059)
+def tampilkan_daftar():
+    if not daftar_belanjaan:
+        print("Daftar belanjaan kosong.")
+    else:
+        print("Daftar Belanjaan:")
+        for item in daftar_belanjaan:
+            print("-", item)
+
+# Fungsi untuk menyortir daftar belanjaan
+# Zhafir Zaidan Avail (2311104059)
+def sortir_belanjaan():
+    daftar_belanjaan.sort()
+    print("daftar belanjaan telah di urutkan")
+
 #Dimastian Aji Wibowo (2311104058)
 # Fungsi untuk menghitung jumlah total item dalam daftar belanjaan
 def hitung_jumlah_item():
